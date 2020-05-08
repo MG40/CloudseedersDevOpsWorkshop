@@ -1,0 +1,13 @@
+mkdir share
+cd share
+docker run -v $(pwd):/share -it busybox
+<ctrl+p> <ctrl+q>
+echo "editing outside the container" > test
+docker container ls
+<interesting read - https://www.digitalocean.com/community/tutorials/naming-docker-containers-3-tips-for-beginners>
+docker exec -it <container-id> sh
+echo "edited inside the container" >> test
+cat test
+pwd
+ls
+cat test

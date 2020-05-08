@@ -1,0 +1,2 @@
+kubectl apply -d deployment.yaml
+kubectl expose deployment shc-deployment --type=NodePort
