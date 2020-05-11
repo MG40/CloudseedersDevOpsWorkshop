@@ -10,8 +10,8 @@ These instructions will get you a copy of the entire code and CLI for the worksh
 
 Things that you need to install
 
-Docker
-VirtualBox + Minikube + Kubectl
+Docker,
+VirtualBox + Minikube + Kubectl,
 eksctl
 
 ### Installing
