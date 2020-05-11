@@ -20,6 +20,8 @@ https://docs.docker.com/get-docker/
 
 Based on your OS, pls follow the instructions, there’s always Google and Cloud Seeders team to help you out in case of any issues.
 
+Create a docker hub login account for the docker images.
+
 Install Virtualbox + Minikube + kubectl
 
 VirtualBox is a generic tool for running virtual machines.
