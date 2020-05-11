@@ -1,14 +1,14 @@
 # Containers and Kubernetenetes 101
 
-This is a step-by-step guide to perform CLI tasks along with the presentation to gain better understanding. 
+This is a step-by-step guide to perform CLI tasks along with the presentation to gain better understanding.
 
 ## Getting Started
 
-These instructions will get you a copy of the entire code and CLI for the workshop. 
+These instructions will get you a copy of the entire code and CLI for the workshop.
 
 ### Prerequisites
 
-Things that you need to install 
+Things that you need to install
 
 Docker
 VirtualBox + Minikube + Kubectl
@@ -18,11 +18,11 @@ eksctl
 
 https://docs.docker.com/get-docker/
 
-Based on your OS, pls follow the instructions, there’s always Google and Cloud Seeders team to help you out in case of any issues. 
+Based on your OS, pls follow the instructions, there’s always Google and Cloud Seeders team to help you out in case of any issues.
 
 Install Virtualbox + Minikube + kubectl
 
-VirtualBox is a generic tool for running virtual machines. 
+VirtualBox is a generic tool for running virtual machines.
 
 https://www.virtualbox.org/wiki/Downloads
 
@@ -30,11 +30,11 @@ Minikube is a Kubernetes utility that runs a Kubernetes cluster on your machine.
 
 https://kubernetes.io/docs/tasks/tools/install-minikube/
 
-Remember to turn virtualization on at BIOS level. Also a note that nested virtualization may not work unless you have higher end virtualization software. With vagrant or virtual box there might be some issues. 
+Remember to turn virtualization on at BIOS level. Also a note that nested virtualization may not work unless you have higher end virtualization software. With vagrant or virtual box there might be some issues.
 
 Kubectl is the interface that will be needed to create, modify, delete the environment.
 
-https://kubernetes.io/docs/tasks/tools/install-kubectl/ You will find the details here.  
+https://kubernetes.io/docs/tasks/tools/install-kubectl/ You will find the details here.
 
 eksctl
 
@@ -42,10 +42,10 @@ You can create the cluster with a tool called eksctl — a third-party command-l
 
 https://github.com/weaveworks/eksctl
 
-Should you have any questions, pls feel free to use the slack channel or mighty networks. 
+Should you have any questions, pls feel free to use the slack channel or mighty networks.
 
 ## Authors
-* ** Madhavi Gauripeddi 
+* Madhavi Gauripeddi, Cloud Seeders
 
 ## Template
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
