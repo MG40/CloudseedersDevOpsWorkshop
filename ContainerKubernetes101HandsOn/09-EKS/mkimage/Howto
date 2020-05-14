@@ -1,0 +1,2 @@
+docker build -t gmadhavi/shceks .
+docker push gmadhavi/shceks
