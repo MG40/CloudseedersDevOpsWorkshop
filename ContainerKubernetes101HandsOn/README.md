@@ -4,7 +4,7 @@ This is a step-by-step guide to perform CLI tasks along with the presentation to
 
 ## Getting Started
 
-These instructions will get you a copy of the entire code and CLI for the workshop.
+Here you will find a copy of the entire Howto, CLI and code for the workshop.
 
 ### Prerequisites
 
