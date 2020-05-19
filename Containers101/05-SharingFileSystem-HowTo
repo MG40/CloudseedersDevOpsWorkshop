@@ -1,0 +1,32 @@
+pwd
+echo "Hello Cloud Seeders" > /home/madhavi/file.txt
+cat /home/madhavi/file.txt
+docker run -it ubuntu
+cat /home/madhavi/file.txt
+echo "Hello Containers" > /home/file.txt
+cat /home/file.txt
+exit
+pwd
+cat /home/file.txt
+cat /home/madhavi/file.txt
+
+----
+
+mkdir share
+cd share
+ls
+echo "Hello from the outside" > file.txt
+cat file.txt
+pwd
+ls
+docker run -it ubuntu
+docker run -v $(pwd):/sharedfolder -it ubuntu
+cd sharedfolder
+ls
+cat file.txt
+echo "Hello from the inside" >> file.txt
+ls
+cat file.txt
+exit
+ls
+cat file.txt 

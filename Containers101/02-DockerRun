@@ -1,0 +1,11 @@
+docker run ubuntu
+docker container ls
+docker container ls -a
+docker run -it ubuntu
+# pwd
+# cd home
+# ls
+# exit
+cd /home
+ls
+docker container ls -a
