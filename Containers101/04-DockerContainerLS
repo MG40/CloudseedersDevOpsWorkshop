@@ -1,6 +1,0 @@
-docker container ls -a
-docker run --name cloud_seeders -it ubuntu
-docker container attach cloud_seeders
-ls
-exit
-docker container ls -a

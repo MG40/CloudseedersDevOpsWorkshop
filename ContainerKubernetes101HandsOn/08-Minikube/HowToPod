@@ -1,3 +1,0 @@
-minikube start
-kubectl create -f .
-minikube service shc-service

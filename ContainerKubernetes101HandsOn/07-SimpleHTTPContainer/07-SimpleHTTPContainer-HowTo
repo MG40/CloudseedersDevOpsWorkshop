@@ -1,7 +1,0 @@
-docker build -t shc .
-docker run -p 8080:80 shc
-docker login
-docker tag shc gmadhavi/shc
-<Use your docker-account-id>
-docker push gmadhavi/shc
-docker images ls
