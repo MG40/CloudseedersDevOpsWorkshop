@@ -1,0 +1,17 @@
+## Building Image. Ensure that you have the Dockerfile is in the current directory. Don't forget the "." in the end. ##
+docker build -t shc .
+
+## Running the Container ##
+docker run -p 8090:80 shc
+
+## If you have created a login, you can enter the credentials ##
+docker login
+
+## Tagging the image ##
+docker tag shc <docker-hub-username>/shc
+
+## Pushing the image ##
+docker push <docker-hub-username>/shc
+
+## Listing docker images ##
+docker images ls

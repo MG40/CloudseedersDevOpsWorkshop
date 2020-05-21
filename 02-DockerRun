@@ -1,0 +1,33 @@
+## Running a skinny linux distribution called alpine. Pass echo hello world as argument ##
+docker run alpine echo hello world
+
+## Pull an image of the Ubuntu OS, "-it" flag interactive terminal inside the spawned container and map the port with "-p" flag to run a webserver ##
+docker run -it -p 8080:80 ubuntu
+
+## Inside the spawned container - Update the container & install apache webserver ##
+## Expect a long process :-) ##
+apt-get update &&  apt-get install -y apache2
+
+## Running apache webserver with -DFOREGROUND option. This option is running in the foreground, so you see any error messages here. ##
+apach2ctl -DFOREGROUND
+
+## Open in Webserver ##
+http://localhost:8080
+
+## Interrupt the process ##
+Press Ctrl+c
+
+## Exit the container ##
+exit
+
+## Shows all containers (default shows just running) ##
+docker ps -a
+
+## Querying only the container ID ##
+docker ps -aq
+
+## Removing the containers ##
+docker rm $(docker ps -aq)
+
+## Shows all containers (default shows just running) ##
+docker ps -a

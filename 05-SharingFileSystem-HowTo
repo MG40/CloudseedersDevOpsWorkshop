@@ -1,0 +1,44 @@
+## Present Working Directory ##
+pwd
+
+## Creating a directory ##
+mkdir share
+
+## Change directory ##
+cd share
+
+## List contents ##
+ls
+
+## sending the output to a file ##
+echo "Hello from the outside" > file.txt
+
+## Display the contents of the file ##
+cat file.txt
+
+## Running Ubuntu Container with -v flag to mount the filesystem ##
+docker run -v $(pwd):/sharedfolder -it ubuntu
+
+## List contents ##
+ls
+
+## Change directory ##
+cd sharedfolder
+
+## List contents ##
+ls
+
+## Display the contents of the file ##
+cat file.txt
+
+## Appending the file ##
+echo "Hello from the inside" >> file.txt
+
+## Display the contents of the file ##
+cat file.txt
+
+## Exiting the container ##
+exit
+
+## Display the contents of the file ##
+cat file.txt 

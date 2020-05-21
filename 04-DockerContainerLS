@@ -1,0 +1,17 @@
+## Lists "All" containers ##
+docker container ls -a
+
+## Running and Naming the container ubuntu ##
+docker run --name cloud_seeders -it ubuntu
+
+## Attaching the Container by providing the Name ##
+docker container attach cloud_seeders
+
+## Listing the contents in the current directory ##
+ls
+
+## Exit the container ##
+exit
+
+## List "All" Containers ##
+docker container ls -a

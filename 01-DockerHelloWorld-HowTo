@@ -1,0 +1,10 @@
+## Check your docker installation ##
+docker version
+
+## Pull the hello-world image from Docker Hub ##
+docker pull hello-world
+
+## Run the hello-world image ##
+docker run hello-world
+
+
