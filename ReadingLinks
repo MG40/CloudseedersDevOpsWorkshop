@@ -1,9 +1,13 @@
 Reading links
 
+https://docs.docker.com/
+https://www.freecodecamp.org/news/docker-simplified-96639a35ff36/
 https://www.digitalocean.com/community/tutorials/naming-docker-containers-3-tips-for-beginners
 https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 https://www.xenonstack.com/insights/stateful-and-stateless-applications/
-https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16
-https://kubernetes.io/docs/tutorials/hello-minikube/
 
+Playground
+https://www.docker.com/play-with-docker
+https://www.katacoda.com/lizrice/courses/containers-and-go
+https://www.katacoda.com/loodse/courses/docker
 
