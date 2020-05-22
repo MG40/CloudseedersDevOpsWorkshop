@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<title> Container cat </title>
+	</head>
+	<body>
+		<center><h1> Hello Cloud Seeders from the "Container" </h1></center>
+		<center><img src="index.jpg" alt="container wild rydes">
+		<center><h1> Docker is Awesome </h1></center>
+	</body>
+</html>
