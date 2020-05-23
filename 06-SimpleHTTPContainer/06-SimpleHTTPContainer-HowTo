@@ -2,22 +2,10 @@
 docker build -t shc .
 
 ## Running the Container ##
-docker run -p 8090:80 shc
+docker run --name cloud_seeders -p 8090:80 shc
 
 ## View in browser ##
 http://localhost:8090
-
-## If you have created a login, you can enter the credentials ##
-docker login
-
-## Tagging the image ##
-docker tag shc <docker-hub-username>/shc
-
-## Pushing the image ##
-docker push <docker-hub-username>/shc
-
-## Listing docker images ##
-docker images ls
 
 ## Edit index.html, include ##
 <center><h1> Docker is awesome </h1></center>
@@ -35,8 +23,21 @@ docker rm $(docker ps -aq)
 docker build -t shc .
 
 ## Run the container again ##
-docker run -p 8090:80 shc
+docker run --name cloud_seeders -p 8090:80 shc
 
 ## View in browser ##
 http://localhost:8090
+
+## If you have created a login, you can enter the credentials ##
+docker login
+
+## Tagging the image ##
+docker tag shc <docker-hub-username>/shc
+
+## Pushing the image ##
+docker push <docker-hub-username>/shc
+
+## Listing docker images ##
+docker images ls
+
 
