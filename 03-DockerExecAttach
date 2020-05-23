@@ -1,8 +1,6 @@
-## Running Ubuntu, "-it" flag interactive terminal inside the spawned container ##
-docker run -it ubuntu
 
-## To turn interactive mode to daemon mode ##
-ctrl+p followed by ctrl+q
+## Running Ubuntu, "-d" making it daemon "-it" flag interactive terminal inside the spawned container ##
+docker run -d -it ubuntu
 
 ## Lists containers ##
 docker container ls
@@ -17,17 +15,18 @@ docker exec -it <container-id> sh
 ## Exit the container ##
 exit
 
-## Lists containers ##
-docker container ls
-
 ## Attaching to the container ##
 docker container attach <container-id>
 
-## Exit the container ##
-exit
+## To turn interactive mode to daemon mode ##
+ctrl+p followed by ctrl+q
 
 ## Lists containers ##
 docker container ls
 
-## Lists "All" containers ##
-docker container ls -a
+## kill the container ##
+docker kill <container-id>
+
+## Lists containers ##
+docker container ls
+

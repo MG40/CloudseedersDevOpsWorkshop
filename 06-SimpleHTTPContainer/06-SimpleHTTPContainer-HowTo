@@ -4,6 +4,9 @@ docker build -t shc .
 ## Running the Container ##
 docker run -p 8090:80 shc
 
+## View in browser ##
+http://localhost:8090
+
 ## If you have created a login, you can enter the credentials ##
 docker login
 
@@ -15,3 +18,25 @@ docker push <docker-hub-username>/shc
 
 ## Listing docker images ##
 docker images ls
+
+## Edit index.html, include ##
+<center><h1> Docker is awesome </h1></center>
+
+## Running images ##
+docker ps -aq
+
+## Stop images [ because I want to use the same tags also one more new command ;) ] ##
+docker stop $(docker ps -aq)
+
+## Remove images [Removes all the images running] ## 
+docker rm $(docker ps -aq)
+
+## Rebuild the container ##
+docker build -t shc .
+
+## Run the container again ##
+docker run -p 8090:80 shc
+
+## View in browser ##
+http://localhost:8090
+
