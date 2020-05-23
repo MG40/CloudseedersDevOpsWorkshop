@@ -1,4 +1,4 @@
-## Running a skinny linux distribution called alpine. Pass echo hello world as argument ##
+## Running a lightest linux distribution called alpine. Pass echo hello world as argument ##
 docker run alpine echo hello world
 
 ## Pull an image of the Ubuntu OS, "-it" flag interactive terminal inside the spawned container and map the port with "-p" flag to run a webserver ##

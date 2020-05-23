@@ -24,9 +24,17 @@ ctrl+p followed by ctrl+q
 ## Lists containers ##
 docker container ls
 
-## kill the container ##
+## kill the container ## SIGKILL ##
 docker kill <container-id>
 
 ## Lists containers ##
-docker container ls
+docker container ls -a
+
+## Start a container ##
+docker container start <container-id>
+
+## Stop a container ## SIGTERM && SIGKILL##
+docker container stop <container-id>
+
+
 

@@ -16,6 +16,10 @@ echo "Hello from the outside" > file.txt
 ## Display the contents of the file ##
 cat file.txt
 
+## Running Ubuntu Container to list the contents of the directory ##
+docker run ubuntu ls
+
+
 ## Running Ubuntu Container with -v flag to mount the filesystem ##
 docker run -v $(pwd):/sharedfolder -it ubuntu
 
