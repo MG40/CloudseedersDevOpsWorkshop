@@ -36,6 +36,7 @@ https://katacoda.com/loodse/courses/docker/docker-05-interacting
 
 https://katacoda.com/loodse/courses/docker/docker-08-dockerfile
 
+Pls find tips in the Katacoda dir should you need it. :)
 
 Should you have any questions, pls feel free to use the slack channel or mighty networks.
 
