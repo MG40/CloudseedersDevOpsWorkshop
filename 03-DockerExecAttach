@@ -1,4 +1,3 @@
-
 ## Running Ubuntu, "-d" making it daemon "-it" flag interactive terminal inside the spawned container ##
 docker run -d -it ubuntu
 
