@@ -8,7 +8,7 @@ Here you will find a copy of the Howto, CLI and Dockerfile for the workshop.
 
 ### Prerequisites
 
-Pls install Docker to work along the Demo.
+Pls install Docker to work along the the Demo.
 
 ### Installing Docker
 
