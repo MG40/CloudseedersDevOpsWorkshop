@@ -22,7 +22,7 @@ https://hub.docker.com/
 
 You can create a docker hub login account to push your own docker images.
 
-#### Other options
+#### Other options #####
 
 We will be working on the katacoda scenarios to learn Docker.
 
